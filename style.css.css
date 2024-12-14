@@ -1,0 +1,83 @@
+body, h1, h2, h3, h4, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header{
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header .menu ul li {
+    margin: 0 15px;
+}
+
+header .menu ul li a:hover{
+    color: #00bcd4;
+}
+
+.section{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h1, section h2{
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.section ul{
+    list-style: disc;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form button{
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button :hover{
+    background-color: #0097a7;
+}
+
